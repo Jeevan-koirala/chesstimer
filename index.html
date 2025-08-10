@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chess Timer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>⚓ Chess Timer ⚓</h1>
+
+    <div id="player1" class="player active">
+      <span class="label">Player 1</span>
+      <div id="time1" class="clock">05:00</div>
+    </div> 
+    
+    <div class="controls">
+      <select id="timeSelect">
+        <option value ="1">1 min</option>
+        <option value = "3">3 min</option>
+        <option value="5">5 min</option>
+        <option value="10">10 min</option>
+      </select>
+      <button id="pauseBtn">⏸️ Pause</button>
+      <button id="resetBtn">🔄 Reset </button>
+    </div>
+
+    <div id="player2" class="player">
+      <span class="label">Player 2</span>
+      <div id="time2" class="clock">05:00</div>
+    </div>
+
+       <script src="script.js"></script>
+  </body>
+</html>
+
+    
